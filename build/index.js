@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Array2Object = void 0;
 function Array2Object(array, key) {
     return array.reduce((obj, item) => {
         return {
@@ -8,4 +9,4 @@ function Array2Object(array, key) {
         };
     }, {});
 }
-exports.default = Array2Object;
+exports.Array2Object = Array2Object;

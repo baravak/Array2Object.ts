@@ -1,6 +1,6 @@
 {
   "name": "@baravak/array2object",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Convert array to object",
   "main": "build/index.js",
   "scripts": {

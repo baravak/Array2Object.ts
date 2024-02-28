@@ -1,1 +1,1 @@
-export declare function except<T>(array: T[], ..._except: T[]): T[];
+export declare function except<T extends any[] = never>(array: T, ..._except: T): T;
